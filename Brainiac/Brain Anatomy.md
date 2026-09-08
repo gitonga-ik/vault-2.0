@@ -13,4 +13,4 @@ The brain is divided into three main sections each serving a different purpose:
 # References
 - [Brain anatomy - Hopkins medicine](https://www.hopkinsmedicine.org/health/conditions-and-diseases/anatomy-of-the-brain)
 - [The human brain - Wikipedia](https://en.wikipedia.org/wiki/Human_brain)
-- Some edits to test out the obsidian pushing of notes
+- Some edits to test out obsidian git plugin
