@@ -1,1 +1,6 @@
-{}
+{
+  "attachmentFolderPath": "Assets",
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true,
+  "deleteUnlinkedAttachments": "always"
+}
