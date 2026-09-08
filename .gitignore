@@ -1,2 +1,9 @@
+# Obsidian local state & UI workspace
 .obsidian/workspace.json
-.obsidian/graph.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/obsidian-git/data.json
+.obsidian/cache/
+
+# OS metadata
+.DS_Store
+Thumbs.db
