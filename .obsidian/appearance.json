@@ -1,3 +1,5 @@
 {
-  "cssTheme": "Minimal"
+  "cssTheme": "Border",
+  "theme": "system",
+  "interfaceFontFamily": "Consolas,Comic Sans MS,Carlito,Inter"
 }
