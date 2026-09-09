@@ -2,5 +2,6 @@
   "attachmentFolderPath": "Assets",
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
-  "deleteUnlinkedAttachments": "always"
+  "deleteUnlinkedAttachments": "always",
+  "settingsPopoutWindow": false
 }

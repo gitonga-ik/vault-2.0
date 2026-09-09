@@ -2,5 +2,7 @@
   "cssTheme": "Border",
   "theme": "system",
   "interfaceFontFamily": "",
-  "textFontFamily": "Comic Sans MS"
+  "textFontFamily": "Comic Sans MS",
+  "nativeMenus": false,
+  "showRibbon": true
 }
