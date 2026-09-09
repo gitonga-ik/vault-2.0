@@ -2,7 +2,7 @@
   "cssTheme": "Everforest",
   "theme": "system",
   "interfaceFontFamily": "",
-  "textFontFamily": "Comic Sans MS",
+  "textFontFamily": "",
   "nativeMenus": false,
   "showRibbon": true
 }
