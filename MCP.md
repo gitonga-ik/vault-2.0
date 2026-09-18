@@ -2,4 +2,6 @@ MCP (Model Context Protocol) is an open-source standard for connecting AI applic
 
 Simply said, MCP offers a clear unified way through which various AI agents from different providers can connect to and execute things on an external tool e.g. a database or a different application. This simpleifes automation as instead of writing code thats tightly coupled to a given provider, you write general code that can be used by an agent from any provider e.g. OpenAI or Claude
 
-# How does it work
+![[Pasted image 20260918112853.png]]
+# How does it work?
+In order to use MCP, you begin by picking an MCP SDK e.g. fastmcp using python or 
