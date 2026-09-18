@@ -10,5 +10,9 @@ At a high level, the structure of the neural network is as follows:
 
 This is an overly simplified way of thinking about it but it gives the general structure of the network.
 
+# How do they work?
+Neural networks work by processing the information from the input through multiple layers before giving a probability or a prediction for the intended output.
+
+The earlier layers process 
 # References
 - [IBM](https://www.ibm.com/think/topics/neural-networks)
