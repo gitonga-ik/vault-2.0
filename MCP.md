@@ -48,4 +48,4 @@ if __name__ == "__main__":
 
 Using this, we are able to query the connected database to produce a report of the customers who have been inactive for the specified period i.e. 2 months
 
-Once we create this script the next thing would be to start an MCP server which would then 
+Once we create this script the next thing would be to 
