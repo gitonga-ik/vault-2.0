@@ -72,3 +72,4 @@ The AI host acts as an MCP client since when connected to your MCP server, it in
 This is what makes the MCP very versatile since you can register your MCP server with multiple MCP compliant hosts e.g. Cursor, VS Code, Claude Desktop and they all perform the specified actions in the same way you specified it.
 
 # Where would this be applicable?
+This kind of arrangement has massive support as many people have already conformed and are using it in the real world. A quick search on [MCP servers](https://mcpservers.org/) reveals the 
