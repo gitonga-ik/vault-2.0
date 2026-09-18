@@ -18,6 +18,10 @@ Deeper layers take the information from the earlier layers and combine it to com
 
 Taking the example of an image being analyzed, the first layer would receive the raw image represented as a matrix of numbers. For a color image, this would be a 3D grid of numbers corresponding to Width × Height × RGB Color Channels. The layer then passes these raw pixel values directly into the network without extracting features yet.
 
-The middle layers would receive this information 
+The middle layers would receive this information and begin combining the raw inputs to form more meaningful patterns. They would merge the basic line segments, color shifts, and edge maps identified by the initial transformations into intermediate representations such as textures, geometric shapes, and distinct object fragments like wheels, eyes, or handles. By processing broader regions of the image simultaneously, these layers successfully bridge the gap between simple pixel values and full visual entities.
+
+The final layers would receive these assembled fragments and synthesize them into complete high-level concepts and decisions. They would aggregate the recognized components to evaluate the whole scene, identifying full objects and global contexts such as a complete car or an animal. Ultimately, these deep representations are flattened and passed to the output stage, which calculates the final probability scores to categorize what the image depicts.
+
+
 # References
 - [IBM](https://www.ibm.com/think/topics/neural-networks)
