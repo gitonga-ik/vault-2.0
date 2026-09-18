@@ -16,6 +16,8 @@ Earlier layers in a neural network process simple, low-level features and basic 
 
 Deeper layers take the information from the earlier layers and combine it to come up with more complex signals. The final layer the aggregates all the complex components found by the middle layers to synthesize full objects, global context, and final predictions.
 
-Taking the example of an image being analyzed, the first layer would receive the raw image represented as a matrix of numbers. For a color image, this would be a 3D grid of numbers corresponding to Width × Height × RGB Color Channels. The layer the  
+Taking the example of an image being analyzed, the first layer would receive the raw image represented as a matrix of numbers. For a color image, this would be a 3D grid of numbers corresponding to Width × Height × RGB Color Channels. The layer then passes these raw pixel values directly into the network without extracting features yet.
+
+The middle layers would receive this information 
 # References
 - [IBM](https://www.ibm.com/think/topics/neural-networks)
