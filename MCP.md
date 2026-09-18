@@ -67,3 +67,6 @@ if __name__ == "__main__":
     mcp.run()
 ```
 
+The AI host acts as an MCP client since when connected to your MCP server, it interprates the commands you pass to it and runs the exposed tools it has access to when requested passing the results back to the host.
+
+This is what makes the MCP very versatile since you can register your MCP server with multiple hosts e.g. cursor, 
