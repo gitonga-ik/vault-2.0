@@ -72,4 +72,13 @@ The AI host acts as an MCP client since when connected to your MCP server, it in
 This is what makes the MCP very versatile since you can register your MCP server with multiple MCP compliant hosts e.g. Cursor, VS Code, Claude Desktop and they all perform the specified actions in the same way you specified it.
 
 # Where would this be applicable?
-This kind of arrangement has massive support as many people have already conformed and are using it in the real world. A quick search on [MCP servers](https://mcpservers.org/) reveals the 
+This kind of arrangement has massive support as many people have already conformed and are using it in the real world. A quick search on [MCP servers](https://mcpservers.org/) reveals the thousands of MCP servers that have already been created and are available for use. Some of the most notable servers online include:
+
+- **Filesystem**: Maintained as a core reference, it lets your AI read, write, and safely explore local folders.
+- **Playwright**: Maintained by Microsoft, it gives coding agents the power to open web pages, click, and test user interfaces.
+- **GitHub**: Lets agents search code, open issues, read pull requests, and check workflows.
+- **Postgres & SQLite**: Gives local AI direct, safe access to run queries and inspect your database schemas.
+- **Docker Hub**: Allows AI tools to fetch containers, check artifacts, and manage local DevOps tasks.
+- **Kubernetes**: Translates natural language into `kubectl` commands to inspect and troubleshoot clusters.
+
+The possibilities are endless but the real question is, 
