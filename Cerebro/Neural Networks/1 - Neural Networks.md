@@ -1,5 +1,7 @@
 A neural network is a machine learning model that stacks simple "neurons" in layers and learns pattern-recognizing weights and biases from data to map inputs to outputs.
 
+*Vocub*
+Percertron - The simplest type of artificial neuron, used in machine learning for [binary classification problems](https://deepai.org/machine-learning-glossary-and-terms/perceptron)== (deciding if an input belongs to one of two groups). [[1](https://deepai.org/machine-learning-glossary-and-terms/perceptron), [2](https://www.geeksforgeeks.org/deep-learning/what-is-perceptron-the-simplest-artificial-neural-network/)]
 # High level structure of a neural network 
 At a high level, the structure of the neural network is as follows:
 - **Input layer**: holds the raw features  (X1,X2,X3,..) .  
