@@ -52,5 +52,9 @@ To minimize this loss, the network uses an algorithm called [backpropagation](ht
 ![[Pasted image 20260918150908.png]]
 
 This process is repeated many times over the training dataset. Each pass helps the network “tune” its internal parameters so that its predictions get incrementally closer to the correct answers. Over time, the network converges to a set of weights and biases that minimize error and generalize well to unseen data. Backpropagation, coupled with gradient descent, is the engine that makes neural networks work. It enables networks with millions (or even billions) of parameters to learn meaningful patterns from massive datasets.
+
+# Types of Neural Networks
+
+
 # References
 - [IBM](https://www.ibm.com/think/topics/neural-networks)
