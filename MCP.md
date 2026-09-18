@@ -48,4 +48,22 @@ if __name__ == "__main__":
 
 Using this, we are able to query the connected database to produce a report of the customers who have been inactive for the specified period i.e. 2 months
 
-Within th
+Within the code we:
+1. Initialize an MCP server
+```python
+from fastmcp import FastMCP
+
+# Initialize the MCP Server
+mcp = FastMCP("Customer-Database-Tools")
+```
+2. Register a tool to it
+```python
+@mcp.tool()
+def get_inactive_customers(months_inactive: int = 2) -> list[dict]:
+```
+3. Run the server and expose it to an AI host on your system
+```python
+if __name__ == "__main__":
+    mcp.run()
+```
+
