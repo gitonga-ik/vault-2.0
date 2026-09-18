@@ -2,9 +2,9 @@ A neural network is a machine learning model that stacks simple "neurons" in lay
 
 # High level structure of a neural network 
 At a high level, the structure of the neural network is as follows:
-- **Input Layer:** Receives raw data, such as pixels from a picture or numbers from a spreadsheet.
-- **Hidden Layers:** Perform math calculations between the input and output layers to find hidden patterns.
-- **Output Layer:** Gives the final answer, choice, or prediction.
+- **Input layer**: holds the raw features  (X1,X2,X3,..) .  
+- **Hidden layers**: consist of artificial neurons (or nodes) that transform inputs into new representations. Mathematically, hidden layers are expressed as the input features, multiplied by their associated weights and added bias to pass from one layer to the next layer, eventually arriving at the final output layer. This is where the **linear transformation** between input and output happens.   
+- **Output layer**: After performing the linear transformation in the hidden layer, a nonlinear activation function (tanh, sigmoid, ReLU ) is added to produce the final prediction (such as a number for regression, or a probability distribution for classification).
 
 ![[Pasted image 20260918142101.png]]
 
