@@ -23,72 +23,34 @@ The middle layers would receive this information and begin combining the raw inp
 The final layers would receive these assembled fragments and synthesize them into complete high-level concepts and decisions. They would aggregate the recognized components to evaluate the whole scene, identifying full objects and global contexts such as a complete car or an animal. Ultimately, these deep representations are flattened and passed to the output stage, which calculates the final probability scores to categorize what the image depicts.
 
 # Training a neural network
-Just like other machine learning algorithms, a neural net requires rigorous training to perform well on testing. To train a network, a single neuron computes: 
+Just like other machine learning algorithms, a neural net requires rigorous training to perform well on testing. To train a network, a single neuron computes: 
 
- 
-z
-=
-∑
-i
-=
-1
-n
-w
-i
-x
-i
-+
-b
+ z=∑i=1nwixi+b
 
- 
-a
-=
-σ
-(
-z
-)
+ a=σ(z)
 
 Where:
 
- 
-x
-i
- = input feature,
- 
-w
-i
- = weight,
- 
-b
-  = bias,
- 
-z
-  = weighted sum (linear transformation),
- 
-σ
-  = activation function (nonlinear transformation),
- 
-a
-  = output,
- 
-σ
-  represents an activation function at the output layer that transforms the linear combination to fit the decision of the function. Using this architecture, the input features X are transformed into an output Y, serving as a predictive machine learning model.  
+-  xi = input feature,
+-  wi = weight,
+-  b  = bias,
+-  z  = weighted sum (linear transformation),
+-  σ  = activation function (nonlinear transformation),
+-  a  = output,
 
-The power of a neural network comes from its ability to learn the right weights and biases from data. This is done by comparing the network’s prediction  
-Y
-^
- to the true label  
-Y
-  and measuring the error using a loss function. For example, in classification tasks, the loss might measure how far the predicted probability is from the correct answer.
+ σ  represents an activation function at the output layer that transforms the linear combination to fit the decision of the function. Using this architecture, the input features X are transformed into an output Y, serving as a predictive machine learning model.  
 
-To minimize this loss, the network uses an algorithm called backpropagation. The neural net trains in four steps:
+The power of a neural network comes from its ability to learn the right weights and biases from data. This is done by comparing the network’s prediction  Y^ to the true label  Y  and measuring the error using a [loss function](https://www.ibm.com/think/topics/loss-function). For example, in [classification](https://www.ibm.com/think/topics/classification-machine-learning) tasks, the loss might measure how far the predicted probability is from the correct answer.
 
-Forward pass: Inputs flow through the network, computing linear combinations, passing through the nonlinear activation function and producing an output prediction.
+To minimize this loss, the network uses an algorithm called [backpropagation](https://www.ibm.com/think/topics/backpropagation). The neural net trains in four steps:
 
-Error calculation: The loss function measures the difference between prediction and truth.
+- Forward pass: Inputs flow through the network, computing linear combinations, passing through the nonlinear activation function and producing an output prediction.  
+- Error calculation: The loss function measures the difference between prediction and truth.  
+- Backward pass (backpropagation): The error is propagated backward through the network. At each neuron, the algorithm calculates how much each weight and bias contributed to the error using the chain rule of calculus.  
+- Weight update: The weights and biases are adjusted slightly in the direction that reduces the error, using an optimization method like [gradient descent](https://www.ibm.com/think/topics/gradient-descent).
 
-Backward pass (backpropagation): The error is propagated backward through the network. At each neuron, the algorithm calculates how much each weight and bias contributed to the error using the chain rule of calculus.
+![[Pasted image 20260918150908.png]]
 
-Weight update: The weights and biases are adjusted slightly in the direction that reduces the error, using an optimization method like gradient descent.
+This process is repeated many times over the training dataset. Each pass helps the network “tune” its internal parameters so that its predictions get incrementally closer to the correct answers. Over time, the network converges to a set of weights and biases that minimize error and generalize well to unseen data. Backpropagation, coupled with gradient descent, is the engine that makes neural networks work. It enables networks with millions (or even billions) of parameters to learn meaningful patterns from massive datasets.
 # References
 - [IBM](https://www.ibm.com/think/topics/neural-networks)
