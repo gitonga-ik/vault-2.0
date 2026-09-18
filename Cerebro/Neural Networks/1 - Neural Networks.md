@@ -56,7 +56,11 @@ To minimize this loss, the network uses an algorithm called [backpropagation](ht
 This process is repeated many times over the training dataset. Each pass helps the network “tune” its internal parameters so that its predictions get incrementally closer to the correct answers. Over time, the network converges to a set of weights and biases that minimize error and generalize well to unseen data. Backpropagation, coupled with gradient descent, is the engine that makes neural networks work. It enables networks with millions (or even billions) of parameters to learn meaningful patterns from massive datasets.
 
 # Types of Neural Networks
-
+While multilayer perceptrons are the foundation, neural networks have evolved into specialized architectures suited for different domains:
+- Convolutional neural networks (CNNs or convnets): Designed for grid-like data such as images. CNNs excel at image recognition, computer vision and facial recognition thanks to convolutional filters that detect spatial hierarchies of features.   
+- [Recurrent neural networks (RNNs)](https://www.ibm.com/think/topics/recurrent-neural-networks): Incorporate feedback loops that allow information to persist across time steps. RNNs are well-suited for speech recognition, time series forecasting and sequential data.   
+- Transformers: A modern architecture that replaced RNNs for many sequence tasks. Transformers leverage attention mechanisms to capture dependencies in natural language processing (NLP) and power state-of-the-art models like GPT.   
+-  These variations highlight the versatility of neural networks. Regardless of architecture, all rely on the same principles: artificial neurons, nonlinear activations and optimization algorithms.
 
 # References
 - [IBM](https://www.ibm.com/think/topics/neural-networks)
