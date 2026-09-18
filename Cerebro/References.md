@@ -1,6 +1,6 @@
 # Youtube
 - [The brain - Bozeman Sceince](https://youtu.be/kMKc8nfPATI)
-
+- [3B1B neural networks](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&si=2c2AxiCUAydAQbvB)
 # Papers
 
 # Books
